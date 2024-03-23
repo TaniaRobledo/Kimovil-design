@@ -1,0 +1,27 @@
+
+.section{
+    /* max-width: 1400px; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section--blue{
+    background-color: #3b3ece;  
+
+}
+.section--gray{
+    background-color: #F3F5FA;  
+
+}
+.section--white{
+    background-color: #FFFFFF;  
+
+}
+.section-container{
+    max-width: 1400px;
+    width: 100%;
+    border: 2px solid red;
+}

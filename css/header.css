@@ -1,0 +1,129 @@
+
+.header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    background-color: #3b3ece;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    /* max-width: 1500px; */
+    /* border: 10px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header__title {
+    color: white;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.header__title--bold {
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 2px solid orange; */
+    /* width: 45%; */
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    /* border: 2px solid green; */
+    width: 100%;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    /* border: 2px solid purple; */
+}
+
+.nav__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__text {
+    color: white;
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 1.4rem;
+    margin-right: 10px;
+    color: white;
+}
+
+.container__input{
+    width: 30%;
+     color: white;
+}
+
+.icon__glass{
+   font-size: 1rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.4963235294117647) 4%, rgba(255,255,255,0.272233893557423) 25%, rgba(255,255,255,0) 47%);
+}
+
+.label:hover{
+    border: 1px solid white;
+}
+.input{
+    border-radius: 8px 8px 8px 8px;
+    width: 90%;
+    padding: 8px;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+.input:focus{
+    outline: 0;
+    border: 0;
+
+}
+.input::placeholder{
+    background-color: transparent;
+    color: white;
+}
