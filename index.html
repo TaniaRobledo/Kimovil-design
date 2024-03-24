@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/section.css">
+  <link rel="stylesheet" href="./css/devices.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="shortcut icon" href="./assets/imagesIndex/favicon.png" type="image/x-icon">
 </head>
@@ -23,7 +24,7 @@
       </h1>
       <!-- nav header -->
       <div class="nav-container">
-  
+
         <!-- nav -->
         <nav class="nav">
           <ul class="nav__list">
@@ -45,7 +46,7 @@
                 <p class="nav__text">Televisores</p>
               </a>
             </li>
-  
+
             <li class="nav__item">
               <a class="nav__link" href="#">
                 <i class="fa-solid fa-fire icon"></i>
@@ -59,7 +60,7 @@
             </li>
           </ul>
         </nav>
-  
+
         <!-- input -->
         <div class="container__input">
           <label for="input" class="label">
@@ -69,7 +70,7 @@
         </div>
         <!-- NAV CONTAINER END -->
       </div>
-  
+
       <!-- nav -->
       <nav class="nav">
         <ul class="nav__list">
@@ -99,15 +100,1015 @@
   </header>
   <!-- container -->
   <div class="container">
-    <!-- section que va al 100% -->
+    <!-- primer section que va al 100% -->
     <section class="section section--blue">
       <!-- el contenedor que tiene los artulos y tiene uns medidad fija -->
       <div class="section-container">
-        <div class="section__subtitle">
-          <h2 class="section__subtitle section__subtitle--text">¿Cuánto te quieres gastar en tu próximo móvil?</h2>
+        <!-- SECTION PRINIPAL DE INFORMACION -->
+        <div class="info">
+
+          <!-- HEADER DE LA INFORMACION -->
+          <div class="info__description">
+            <h2 class="info__title">¿Cuánto te quieres gastar en tu próximo móvil?</h2>
+            <p class="info__text">Comparamos especificaciones y precios de móviles y tablets</p>
+            <a class="info__link" href="">
+              <strong>+ Todos los móviles</strong>
+            </a>
+          </div>
+
+
+          <!-- INPUT RANGE PARA LOS PRECIOS -->
+          <div class="info__container-range">
+            <input class="info__range" type="range" id="precio" name="precio" min="0" max="100" value="0">
+            <!-- seccion de todos los moviles y el range de precios -->
+          </div>
+
+          <!-- primer section que contiene titulo y subtitulo -->
         </div>
       </div>
     </section>
+
+    <!-- SECTION PRIMERA DE DISPOSITIVOS************************-->
+    <section class="section section--gray">
+      <!-- el contenedor que tiene los artulos y tiene uns medidad fija -->
+      <div class="section-container section-container--phones">
+        <!-- container ofertas -->
+        <h3 class="section__title">
+          <i class="fa-solid fa-fire icons"></i>
+          Ofertas
+        </h3>
+
+        <!-- contenedor que tiene los moviles -->
+        <div class="devices">
+
+          <!-- CONETENDOR MOVIL 1 -->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/movil1.png" alt="movil1">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">370 €</p>
+                <p class="characteristics__reduced">310 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 1 del movil -->
+          </div>
+
+          <!-- CONTENEDOR MOVIL 2-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/movil2.png" alt="movil2">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Xiaomi 13T Pro</p>
+              <p class="characteristics__text--gray">Global 12 GB</p>
+              <p class="characteristics__text--gray">512 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">600 €</p>
+                <p class="characteristics__reduced">479 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 2 del movil -->
+          </div>
+
+          <!-- CONTENEDOR MOVIL 3-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/movil3png.png" alt="movil3">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Samsung A54 5G</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">309 €</p>
+                <p class="characteristics__reduced">253 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 3 del movil -->
+          </div>
+
+          <!-- CONTENEDOR MOVIL 4-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/movil4.png" alt="movil4">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">440 €</p>
+                <p class="characteristics__reduced">363 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 4 del movil -->
+          </div>
+
+          <!-- CONTENEDOR MOVIL 5-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/movil3png.png" alt="movil3">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">749 €</p>
+                <p class="characteristics__reduced">579 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 5 del movil -->
+          </div>
+
+          <!-- CONTENEDOR MOVIL/TABLET 6-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image device__container-image--tablet">
+              <a href="">
+                <img class="device__image" src="./assets/imagesIndex/tablet1.png" alt="movil1">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">185 €</p>
+                <p class="characteristics__reduced">104 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 6 del movil -->
+          </div>
+
+
+          <!-- CONTENEDOR MOVIL 7-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image device__container-image--tablet">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/tablet2.png" alt="tablet2">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">65 €</p>
+                <p class="characteristics__reduced">40 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 7 del movil -->
+          </div>
+
+
+          <!-- CONTENEDOR MOVIL 8-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/moivl5.png" alt="movil5">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">244 €</p>
+                <p class="characteristics__reduced">199 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 8 del movil -->
+          </div>
+
+
+          <!-- CONTENEDOR MOVIL 9-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image device__container-image--tablet">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/tablet3.png" alt="tablet3">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">120 €</p>
+                <p class="characteristics__reduced">69 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 9 del movil -->
+          </div>
+
+
+          <!-- CONTENEDOR MOVIL 10-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image  device__container-image--tablet">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/tablet4.png" alt="tablet4">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">639 €</p>
+                <p class="characteristics__reduced">421 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 10 del movil -->
+          </div>
+
+
+          <!-- CONTENEDOR MOVIL 11-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image device__container-image--tablet">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/tablet5.png" alt="tablet5">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">339 €</p>
+                <p class="characteristics__reduced">297 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 11 del movil -->
+          </div>
+
+
+          <!-- CONTENEDOR MOVIL 12-->
+          <div class="device">
+            <!-- contenedor imagen -->
+            <div class="device__container-image">
+              <a class="device__link" href="">
+                <img class="device__image" src="./assets/imagesIndex/movil6.png" alt="movil6">
+              </a>
+              <!-- contenedor imagen -->
+            </div>
+
+            <!-- contenedor de las caracterisitcas en columna -->
+            <div class="characteristics">
+              <p class="characteristics__text">Google Pixel 7</p>
+              <p class="characteristics__text--gray">Global 8 GB</p>
+              <p class="characteristics__text--gray">128 GB</p>
+
+              <!-- contenedor precio tachado -->
+              <div class="characteristics__prices">
+                <p class="characteristics__price">299 €</p>
+                <p class="characteristics__reduced">229 €</p>
+              </div>
+              <!-- contenedor de las caracterisitcas en columna -->
+            </div>
+            <!-- contenedor 12 del movil -->
+          </div>
+          <!-- contenedor que tiene los moviles -->
+        </div>
+
+        <!-- boton para ver mas articulos -->
+        <div class="button">
+          <a class="button__link" href="">
+            <strong>+ Ver más...</strong>
+          </a>
+        </div>
+
+        <!-- el contenedor que tiene los artulos y tiene uns medidad fija -->
+      </div>
+        <!-- SECTION PRIMERA DE DISPOSITIVOS************************-->
+    </section>
+
+      <!-- *******SECTION SEGUNDA DE DISPOSITIVOS************************-->
+      <section class="section section--white">
+        <!-- el contenedor qur tiene los articulos y la meduda fija -->
+        <div class="section-container section-container--sells">
+          <h3 class="section__title section__title--sells">
+            Top 10
+          </h3>
+
+          <!-- Section de los componentes d eventas -->
+          <div class="sells">
+            <!-- Componente primero top ventas -->
+            <article class="sell">
+              <h4 class="sell__title">
+                Top ventas
+              </h4>
+
+              <!-- lista de los componentes -->
+              <ol class="sell__list">
+                
+                <!-- COMPONENTE 1 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 1 -->
+
+                <!-- COMPONENTE 2 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 2 -->
+
+                <!-- COMPONENTE 3 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 3 -->
+
+                
+                <!-- COMPONENTE 4 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 4 -->
+
+                
+                <!-- COMPONENTE 5 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 5 -->
+              <!-- lista de los componentes -->
+              </ol>
+
+              <!-- boton para ver mas articulos -->
+        <div class="button">
+          <a class="button__link" href="">
+            <strong>+ Ver lista completa...</strong>
+          </a>
+        </div>
+              
+            <!-- Componente primero top ventas -->
+            </article>
+
+            <!-- componente segundo top ventas -->
+            <article class="sell">
+              <h4 class="sell__title">
+                Top "Lo quiero"
+              </h4>
+
+              <!-- lista de los componentes -->
+              <ol class="sell__list">
+                
+                <!-- COMPONENTE 1 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 1 -->
+
+                <!-- COMPONENTE 2 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 2 -->
+
+                <!-- COMPONENTE 3 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 3 -->
+
+                
+                <!-- COMPONENTE 4 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 4 -->
+
+                
+                <!-- COMPONENTE 5 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 5 -->
+              <!-- lista de los componentes -->
+              </ol>
+
+          <!-- boton para ver mas articulos -->
+        <div class="button">
+          <a class="button__link" href="">
+            <strong>+ Ver lista completa...</strong>
+          </a>
+        </div>
+
+            <!-- Componente segundo primero top ventas -->
+            </article>
+
+             <!-- Componente tecero top ventas -->
+            <article class="sell">
+              <h4 class="sell__title">
+                Top "Lo tengo/tuve"
+              </h4>
+
+              <!-- lista de los componentes -->
+              <ol class="sell__list">
+                
+                <!-- COMPONENTE 1 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 1 -->
+
+                <!-- COMPONENTE 2 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 2 -->
+
+                <!-- COMPONENTE 3 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 3 -->
+
+                
+                <!-- COMPONENTE 4 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 4 -->
+
+                
+                <!-- COMPONENTE 5 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 5 -->
+              <!-- lista de los componentes -->
+              </ol>
+
+                <!-- boton para ver mas articulos -->
+        <div class="button">
+          <a class="button__link" href="">
+            <strong>+ Ver lista completa...</strong>
+          </a>
+        </div>
+            
+             <!-- Componente tecero top ventas -->
+            </article>
+            <!-- Section de los componentes d eventas -->
+          </div>
+         <!-- el contenedor qur tiene los articulos y la meduda fija -->
+        </div>
+        <!-- *******SECTION SEGUNDA DE DISPOSITIVOS************************-->
+      </section>
+
+
+      <!-- *******SECTION TERCERA DE DISPOSITIVOS************************-->
+       <section class="section section--white">
+        <!-- el contenedor qur tiene los articulos y la meduda fija -->
+        <div class="section-container section-container--sells">
+        
+
+          <!-- Section de los componentes d eventas -->
+          <div class="sells">
+            <!-- Componente primero top ventas -->
+            <article class="sell">
+              <h4 class="sell__title">
+                Top valoracion de usuarios
+              </h4>
+
+              <!-- lista de los componentes -->
+              <ol class="sell__list">
+                
+                <!-- COMPONENTE 1 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 1 -->
+
+                <!-- COMPONENTE 2 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 2 -->
+
+                <!-- COMPONENTE 3 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 3 -->
+
+                
+                <!-- COMPONENTE 4 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 4 -->
+
+                
+                <!-- COMPONENTE 5 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 5 -->
+              <!-- lista de los componentes -->
+              </ol>
+
+              <!-- boton para ver mas articulos -->
+        <div class="button">
+          <a class="button__link" href="">
+            <strong>+ Ver lista completa...</strong>
+          </a>
+        </div>
+              
+            <!-- Componente primero top ventas -->
+            </article>
+
+            <!-- componenete segundo top ventas -->
+            <article class="sell">
+              <h4 class="sell__title">
+                Top "Lo quiero"
+              </h4>
+
+              <!-- lista de los componentes -->
+              <ol class="sell__list">
+                
+                <!-- COMPONENTE 1 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 1 -->
+
+                <!-- COMPONENTE 2 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 2 -->
+
+                <!-- COMPONENTE 3 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 3 -->
+
+                
+                <!-- COMPONENTE 4 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 4 -->
+
+                
+                <!-- COMPONENTE 5 -->
+                <li class="sell__item">
+                  <!-- informacionn del componente -->
+                  <div class="sell__info">
+                   
+                    <i class="icon--yellouw fa-solid fa-equals"></i>
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <p class="sell__text">
+                      Poco X6 Pro
+                    </p>
+                   <!-- informacionn del componente -->
+                  </div>
+                  <!--Precio componenete -->
+                  <p class="sell__price">
+                    259 €
+                  </p>
+                </li>
+                <hr class="sell__line">
+                <!-- COMPONENTE 5 -->
+              <!-- lista de los componentes -->
+              </ol>
+
+          <!-- boton para ver mas articulos -->
+        <div class="button">
+          <a class="button__link" href="">
+            <strong>+ Ver lista completa...</strong>
+          </a>
+        </div>
     <!-- container end-->
   </div>
 </body>
