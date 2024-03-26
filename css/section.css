@@ -18,12 +18,13 @@
 }
 .section--white{
     background-color: #FFFFFF;  
+   
 }
 
 .section-container{
     max-width: 1400px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 3px solid red; */
     padding: 30px;
    
 }
@@ -34,6 +35,8 @@
     justify-content: center;
     /* align-items: center; */
 }
+
+
 
 .section__title{
     padding: 0;
@@ -79,6 +82,29 @@
 .sells{
     display: flex;
     flex-wrap: wrap;
+    /* border: 3px solid green; */
+}
+
+.sells-container{
+    display: flex;
+    /* width: 50%; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+}
+
+.sells-container--assements{
+    display: flex;
+    flex-wrap: wrap;
+    width: 670px;
+    /* border: 1px solid blue; */
+}
+
+.sell{
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .sell__title{
@@ -141,3 +167,54 @@
     border: 0;
     border: 1px solid gray;
 }
+
+.opinions{
+    /* border: 1px solid blue; */
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.opinions__text{
+  color: #C7C7CD;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.opinions__text--number,.opinions__text--user{
+    color: #4F4E56;
+    margin: 0;
+    padding: 0;
+}
+
+.opinions__text--number{
+    font-size: 4rem;
+}
+
+.opinions__text--user{
+    font-weight: bold;
+}
+
+.opinions__text--kimovil{
+    font-size: 1.2rem;
+    color: #C7C7CD;
+}
+
+.section-container--phones{
+    max-width: 1400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 30px;
+}
+
+.section-container--image{
+    /* border: 3px solid green; */
+    width: 1000px;
+}
+

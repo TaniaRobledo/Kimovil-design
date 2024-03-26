@@ -1,0 +1,102 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    background-color: rgba(153, 153, 201, 0.288);;
+    width: 34%;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.form-title{
+    color: blue;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+.register{
+    text-align: left;
+}
+
+.user-data,.user-email,.user-password,.user-date{
+    display: flex;
+    width: 100%;
+    /* border: 4px solid purple; */
+}
+
+.input-data{
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 100%;
+    margin: 4px;
+    padding: 8px;
+}
+
+.input-email,.input-password{
+    border: 1px solid blue;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 8px;
+}
+
+.input-date{
+    width: 100%;
+    border: 1px solid blue;
+    /* border: 1px solid green; */
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.user-gender{
+
+    width: 100%;
+}
+
+.input-gender{
+   padding: 4px;
+    margin: 5px;
+    /* border: 1px solid blue; */
+    /* border: 3px solid black; */
+}
+
+.input-data, .input-email, .input-password:focus{
+    color: blue;
+}
+
+.accept-register{
+    width: 380px;
+    text-align: justify;
+    color: rgb(145, 140, 140);
+}
+
+.container-button{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-register{
+    padding: 6px;
+    border-radius: 5px;
+    width: 40%;
+    color: rgb(53, 51, 51);
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(126, 126, 205, 0.421);
+}
+
+.button-register:hover{
+background-color: rgb(103, 103, 190);
+}
+
