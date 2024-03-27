@@ -1,0 +1,398 @@
+.info-phones {
+    /* border: 4px solid black; */
+    width: 84%;
+    color: white;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.info__description--phone {
+
+    width: 60%;
+    /* border: 4px solid green; */
+
+}
+
+.info__nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-bottom: 1px solid white;
+    /* border: 1px solid black; */
+
+}
+
+.info__nav-link {
+    /* border: 1px solid red; */
+    font-size: 1.1rem;
+    color: #9D9FE7;
+    text-decoration: none;
+
+}
+
+.info__nav-link--different {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.info__nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    padding: 14px;
+    padding: 0;
+    margin: 8px;
+    /* border: 1px solid red; */
+}
+
+
+.info__description--text {
+    /* border: 4px solid black; */
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info__text {
+    /* width: 500px; */
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    color: #9D9FE7;
+
+}
+
+.container__text {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+
+/* ******SECCION DOS */
+
+.main {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+
+.section-phones {
+    border: 3px solid blue;
+    display: flex;
+    /* justify-content: center;
+    align-items: start; */
+    width: 60%;
+    margin-left: 172px;
+    /* height: 1000px; */
+}
+
+/* *****ASIDEE**** */
+.filter {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 150px;
+    /* border: 1px solid purple; */
+}
+
+.filter__section {
+    border-bottom: 1px solid #aaa;
+}
+
+.filter__container {
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    position: sticky;
+    top: 50px;
+}
+
+/* header filter styles */
+.filter__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    /* justify-content: center; */
+}
+
+.filter__icon {
+    color: gray;
+    padding: 8px;
+    font-size: 1.6rem;
+}
+
+.filter__title {
+    color: #4F4E56;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* sorting components styles */
+.sorting {
+    display: flex;
+    flex-direction: column;
+}
+
+.sorting__title {
+    color: #4F4E56;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+}
+
+.sorting__select {
+    background-color: #69696F;
+    /* border: 1px solid black; */
+    color: white;
+    padding: 8px;
+    font-size: 1rem;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sorting__option {}
+
+/* prices components styles */
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices__title {
+    color: #4F4E56;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+}
+
+/* stores component styles */
+.stores {
+    /* border: 1px solid rebeccapurple; */
+    width: 90%;
+    display: flex;
+    /* padding: 2px; */
+    border-radius: 10px;
+    background-color: #E8ECF1;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* background-color: white; */
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px;
+    /* border: 1px solid red; */
+}
+
+.store__description {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    border: 0;
+    outline: 0;
+    background-color: #E8ECF1;
+    opacity: 0.5;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid transparent;
+}
+
+.store__description:hover {
+    opacity: 1;
+    background-color: #ccc;
+
+}
+
+.store__description:focus {
+    border: 1px solid #ccc;
+    background-color: white;
+    opacity: 1;
+
+}
+
+.store__text {
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+
+/* range components styles */
+.prices__container-range {}
+
+.prices__range {}
+
+.aside-input:hover {
+    background-color: rgb(157, 149, 149);
+}
+
+
+
+/* minmax component styles */
+.minmax {
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}
+
+.minmax__price {
+    background-color: #E8ECF1;
+    width: 20%;
+    /* padding: 6px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.minmax__text {}
+
+.minmax__text--minum {
+
+    border-radius: 50%;
+}
+
+.minmax__text--plus {}
+
+/* brands components styles */
+.brands {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 6px;
+}
+
+.brands__header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brands__title {
+    /* TODO dar estilos a este componente */
+}
+
+.brands__section,
+.brands__container-brand {
+    width: 90%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brands__container-brand {
+    width: 100%;
+}
+
+.brands__label {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.brands__icon {
+    color: gray;
+}
+
+.brands__input {
+    color: gray;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.brands__brand {
+    /* border: 1px solid gray; */
+    padding: 4px;
+    width: 20%;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: gray;
+    background-color: #E8ECF1;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands__button {
+    margin-right: auto;
+}
+
+/* .aside-brands {
+    width: 46%;
+    padding: 4px;
+    border-radius: 10px;
+    color: gray;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #E8ECF1;
+    text-align: center;
+} */
+
+.aside-brands,
+.brand:hover {
+    background-color: #ababb6c1;
+}
+
+
+
+.brand-further {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+/* ** quiality components styles */
+.qualitiy__title {
+    color: #4F4E56;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+    margin-top: 6px;
+}
+
+/* .container-quality {
+    width: 90%;
+} */
+
+.image__quality {
+    width: 100%;
+}

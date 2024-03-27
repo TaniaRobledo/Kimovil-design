@@ -1,8 +1,9 @@
-form{
+form {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-    background-color: rgba(153, 153, 201, 0.288);;
+    background-color: rgba(153, 153, 201, 0.288);
+    ;
     width: 34%;
     padding: 10px;
     margin: 0;
@@ -11,7 +12,7 @@ form{
 }
 
 
-.form-title{
+.form-title {
     color: blue;
     font-size: 1.4rem;
     font-weight: bold;
@@ -19,17 +20,27 @@ form{
     /* border: 1px solid red; */
 }
 
-.register{
+.register {
     text-align: left;
 }
 
-.user-data,.user-email,.user-password,.user-date{
+.user-data,
+.user-email,
+.user-password,
+.user-date {
     display: flex;
     width: 100%;
     /* border: 4px solid purple; */
 }
 
-.input-data{
+.user-date {
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    justify-content: center;
+
+}
+
+.input-data {
     border: 1px solid blue;
     border-radius: 5px;
     width: 100%;
@@ -37,7 +48,8 @@ form{
     padding: 8px;
 }
 
-.input-email,.input-password{
+.input-email,
+.input-password {
     border: 1px solid blue;
     width: 100%;
     padding: 8px;
@@ -46,8 +58,9 @@ form{
     padding: 8px;
 }
 
-.input-date{
-    width: 100%;
+.input-date {
+    flex: 1 1 130px;
+    /* width: 130px; */
     border: 1px solid blue;
     /* border: 1px solid green; */
     margin: 4px;
@@ -55,29 +68,31 @@ form{
     border-radius: 5px;
 }
 
-.user-gender{
+.user-gender {
 
     width: 100%;
 }
 
-.input-gender{
-   padding: 4px;
+.input-gender {
+    padding: 4px;
     margin: 5px;
     /* border: 1px solid blue; */
     /* border: 3px solid black; */
 }
 
-.input-data, .input-email, .input-password:focus{
+.input-data,
+.input-email,
+.input-password:focus {
     color: blue;
 }
 
-.accept-register{
-    width: 380px;
+.accept-register {
+    /* width: 380px; */
     text-align: justify;
     color: rgb(145, 140, 140);
 }
 
-.container-button{
+.container-button {
     /* border: 2px solid blue; */
     width: 100%;
     display: flex;
@@ -86,7 +101,7 @@ form{
     text-align: center;
 }
 
-.button-register{
+.button-register {
     padding: 6px;
     border-radius: 5px;
     width: 40%;
@@ -96,7 +111,6 @@ form{
     background-color: rgba(126, 126, 205, 0.421);
 }
 
-.button-register:hover{
-background-color: rgb(103, 103, 190);
+.button-register:hover {
+    background-color: rgb(103, 103, 190);
 }
-

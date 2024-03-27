@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid purple;
    
 }
 .section--blue{
@@ -26,6 +27,7 @@
     width: 100%;
     /* border: 3px solid red; */
     padding: 30px;
+ 
    
 }
 
@@ -46,6 +48,8 @@
     /* border: 1px solid blue; */
 }
 
+.section-container
+
 /* INFO SECTION STYLES****************** */
 
 .info{
@@ -59,6 +63,7 @@
 
 .info__description{
     width: 290px;
+    /* border: 1px solid red; */
 }
 
 .info__link{

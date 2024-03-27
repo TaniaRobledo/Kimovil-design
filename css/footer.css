@@ -1,6 +1,6 @@
 .footer{
     /* border: 2px solid red; */
-    width: 1000px;
+    /* width: 1000px; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -36,6 +36,8 @@
 .footer__link--networks{
     display: flex;
     justify-content: space-between;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
 }
 
 .footer__link--numbers{
@@ -45,7 +47,6 @@
 
 .social-networks{
     display: flex;
-    /* border: 2px solid black; */
 }
 
 .link{
