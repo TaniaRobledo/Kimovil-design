@@ -22,9 +22,9 @@
     <div class="header-container">
       <!-- title header -->
       <h1 class="header__title">
-        <a href="">
-        <span class="header__title header__title--bold">ki</span>movil
-      </a>
+        <a class="header__title-kimovil" href="./index.html">
+          <span class="header__title header__title--bold">ki</span>movil
+        </a>
       </h1>
       <!-- nav header -->
       <div class="nav-container">
@@ -39,26 +39,26 @@
               </a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#">
+              <a class="nav__link" href="https://www.kimovil.com/es/tablets">
                 <i class="fa-solid fa-tablet icon"></i>
                 <p class="nav__text">Tablets</p>
               </a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#">
+              <a class="nav__link" href="https://www.kitele.com/es/comparar-televisores/f_c+countryCode.es">
                 <i class="fa-solid fa-tv icon"></i>
                 <p class="nav__text">Televisores</p>
               </a>
             </li>
 
             <li class="nav__item">
-              <a class="nav__link" href="#">
+              <a class="nav__link" href="https://www.kimovil.com/es/special/dailydeals">
                 <i class="fa-solid fa-fire icon"></i>
                 <p class="nav__text">Ofertas</p>
               </a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#">
+              <a class="nav__link" href="https://telegram.me/kimovil_chollos">
                 <p class="nav__text">Más ...</p>
               </a>
             </li>
@@ -69,7 +69,7 @@
         <div class="container__input">
           <label for="input" class="label">
             <i class="fa-solid fa-magnifying-glass icon__glass"></i>
-            <input name="input" class="input" type="text" placeholder="Buscar...">
+            <input id="input" name="input" class="input" type="text" placeholder="Buscar...">
           </label>
         </div>
         <!-- NAV CONTAINER END -->
@@ -79,19 +79,20 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__link" href="#">
+            <a class="nav__link" href="https://telegram.me/kimovil_chollos">
               <i class="fa-regular fa-bell icon"></i>
               <p class="nav__text">Alertas</p>
             </a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">
+            <a class="nav__link" href="https://telegram.me/kimovil_chollos">
               <i class="fa-solid fa-list icon"></i>
               <p class="nav__text">Listas</p>
             </a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">
+            <a class="nav__link"
+              href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&client_id=1019416491413-257v0oekv74nrieb6vu41ae0c8b315jq.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&redirect_uri=https%3A%2F%2Fwww.kimovil.com%2Flogin%2Fcheck-google&service=lso&o2v=1&theme=mn&ddm=0&flowName=GeneralOAuthFlow">
               <i class="fa-regular fa-user icon"></i>
               <p class="nav__text">Inicia Sesión</p>
             </a>
@@ -115,7 +116,7 @@
           <div class="info__description">
             <h2 class="info__title">¿Cuánto te quieres gastar en tu próximo móvil?</h2>
             <p class="info__text">Comparamos especificaciones y precios de móviles y tablets</p>
-            <a class="info__link" href="">
+            <a class="info__link" href="./pages/moviles.html" target="_blank">
               <strong>+ Todos los móviles</strong>
             </a>
           </div>
@@ -123,7 +124,7 @@
 
           <!-- INPUT RANGE PARA LOS PRECIOS -->
           <div class="info__container-range">
-            <input class="info__range" type="range" id="precio" name="precio" min="0" max="100" value="0">
+            <img class="comparador" src="./assets/imagesIndex/comparador1.png" alt="">
             <!-- seccion de todos los moviles y el range de precios -->
           </div>
 
@@ -132,97 +133,156 @@
       </div>
     </section>
 
+    <!-- CONTENEDOR FIXED -->
+    <div class="advs">
+      <div class="advs__title">
+        <i class="fa-solid fa-fire icons"></i>
+        <p class="title">Ultimas ofertas</p>
+      </div>
+      <div class="advs__phone">
+        <div class="advs__phone-image">
+          <img class="phone__image" src="./assets/imagesIndex/movilfixed.png" alt="movil1">
+        </div>
+        <div class="advs__phone-characteristics">
+          <p class="phone__name">Xiaomi Civi 5</p>
+          <div class="advs__memory">
+            <p class="advs__memory-text">Global</p>
+            <p class="advs__memory-text"> 8 GB </p>
+            <p class="advs__memory-text"> 256 GB</p>
+          </div>
+          <div class="advs__price">
+            <p class="price-original">500€</p>
+            <p class="price-sales">250€</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="advs__phone">
+        <div class="advs__phone-image">
+          <img class="phone__image" src="./assets/imagesIndex/movilfixed1.png" alt="movil1">
+        </div>
+        <div class="advs__phone-characteristics">
+          <p class="phone__name">Nokia X30</p>
+          <div class="advs__memory">
+            <p class="advs__memory-text">Global</p>
+            <p class="advs__memory-text"> 6 GB </p>
+            <p class="advs__memory-text"> 128 GB</p>
+          </div>
+          <div class="advs__price">
+            <p class="price-original">650€</p>
+            <p class="price-sales">340€</p>
+          </div>
+        </div>
+      </div>
+         <!-- boton para ver mas articulos -->
+         <div class="button button-advs">
+          <a class="button__link" href="https://www.kimovil.com/es/special/dailydeals"
+              target="_blank">
+              <strong>+ Ver más...</strong>
+          </a>
+      </div>
+    </div>
+
+    
 
     <!-- *******FORMS***** -->
     <section class="section section--white">
       <div class="section-container ">
         <!-- formulario -->
         <div class="form-title">
-          ¿Quieres estar enterado en todo momento de las mejores ofertas?
+          <p class="register">¿Quieres estar enterado en todo momento de las mejores ofertas?</p>
           <p class="register">Registrate ahora y ten acceso completo a nuestra aplicación</p>
         </div>
 
-
-        <form class="form" action="">
-          <div class="user-data">
-            <input class="input-data" type="text" id="name" name="name" placeholder="Nombre">
-            <input class="input-data" type="text" id="name" name="name" placeholder="Apellidos">
-          </div>
-
-          <div class="user-email">
-            <input class="input-email" type="email" id="email" name="email" placeholder="Correo electrónico" required>
-          </div>
-
-          <div class="user-password">
-            <input class="input-password" type="password" id="password" name="password" placeholder="Contraseña"
-              required>
-          </div>
-
-          <p>Fecha de nacimiento (?)</p>
-
-          <div class="user-date">
-            <select class="input-date" name="day" id="day">
-              <option value="day">1</option>
-              <option value="day">2</option>
-              <option value="day">3</option>
-              <option value="day">4</option>
-              <option value="day">5</option>
-              <option value="day">6</option>
-              <option value="day">7</option>
-              <option value="day">8</option>
-              <option value="day">9</option>
-              <option value="day">10</option>
-            </select>
-
-            <select class="input-date" name="month" id="month">
-              <option value="month">Enero</option>
-              <option value="month">Febrero</option>
-              <option value="month">Marzo</option>
-              <option value="month">Abril</option>
-              <option value="month">Mayo</option>
-              <option value="month">Junio</option>
-              <option value="month">Julio</option>
-              <option value="month">Agosto</option>
-
-            </select>
-
-            <select class="input-date" name="year" id="year">
-              <option value="year">1994</option>
-              <option value="year">1995</option>
-              <option value="year">1996</option>
-              <option value="year">1997</option>
-              <option value="year">1998</option>
-              <option value="year">1999</option>
-            </select>
-
-          </div>
-
-          <p>Género (?)</p>
-
-
-          <div class="user-gender">
-            <input class="input-gender" type="radio" id="femenino" name="femenino" value="Femenino">
-            <label class="input-gender" for="">Femenino</label>
-
-            <input class="input-gender" type="radio" id="masculino" name="masculino" value="Femenino">
-            <label class="input-gender" for="">Masculino</label>
-
-            <input class="input-gender" type="radio" id="gender" name="gender" value="Femenino">
-            <label class="input-gender" for="">Sin género</label>
-
-
-
-            <p class="accept-register">Al hacer click en Registrarse, acepta nuestros Términos, Política de Privacidad y
-              Politica de cookies .Puede recibir nuestras notificaciones por SMS y puede optar por no recibirlas en
-              cualquier momento</p>
-
-            <div class="container-button">
-              <button class="button-register">Registrate</button>
+        <div class="container__form">
+          <form class="form" action="">
+            <div class="user-data">
+              <input class="input-data" type="text" id="name" name="name" placeholder="Nombre">
+              <input class="input-data" type="text" id="name" name="name" placeholder="Apellidos">
             </div>
 
+            <div class="user-email">
+              <input class="input-email" type="email" id="email" name="email" placeholder="Correo electrónico" required>
+            </div>
+
+            <div class="user-password">
+              <input class="input-password" type="password" id="password" name="password" placeholder="Contraseña"
+                required>
+            </div>
+
+            <p>Fecha de nacimiento (?)</p>
+
+            <div class="user-date">
+              <select class="input-date" name="day" id="day">
+                <option value="day">1</option>
+                <option value="day">2</option>
+                <option value="day">3</option>
+                <option value="day">4</option>
+                <option value="day">5</option>
+                <option value="day">6</option>
+                <option value="day">7</option>
+                <option value="day">8</option>
+                <option value="day">9</option>
+                <option value="day">10</option>
+              </select>
+
+              <select class="input-date" name="month" id="month">
+                <option value="month">Enero</option>
+                <option value="month">Febrero</option>
+                <option value="month">Marzo</option>
+                <option value="month">Abril</option>
+                <option value="month">Mayo</option>
+                <option value="month">Junio</option>
+                <option value="month">Julio</option>
+                <option value="month">Agosto</option>
+
+              </select>
+
+              <select class="input-date" name="year" id="year">
+                <option value="year">1994</option>
+                <option value="year">1995</option>
+                <option value="year">1996</option>
+                <option value="year">1997</option>
+                <option value="year">1998</option>
+                <option value="year">1999</option>
+              </select>
+
+            </div>
+
+            <p>Género (?)</p>
+
+
+            <div class="user-gender">
+              <input class="input-gender" type="radio" id="femenino" name="femenino" value="Femenino">
+              <label class="input-gender" for="">Femenino</label>
+
+              <input class="input-gender" type="radio" id="masculino" name="masculino" value="Femenino">
+              <label class="input-gender" for="">Masculino</label>
+
+              <input class="input-gender" type="radio" id="gender" name="gender" value="Femenino">
+              <label class="input-gender" for="">Sin género</label>
+
+
+
+              <p class="accept-register">Al hacer click en Registrarse, acepta nuestros Términos, Política de Privacidad
+                y
+                Politica de cookies .Puede recibir nuestras notificaciones por SMS y puede optar por no recibirlas en
+                cualquier momento</p>
+
+              <div class="container-button">
+                <button class="button-register">Registrate</button>
+              </div>
+
+            </div>
+          </form>
+
+          <!-- IMAGEN-->
+          <div class="container__image-form">
+            <img class="image__form" src="./assets/imagesIndex/iconos.webp" alt="">
           </div>
-        </form>
+
+
+        </div>
       </div>
     </section>
 
@@ -304,7 +364,7 @@
 
             <!-- contenedor de las caracterisitcas en columna -->
             <div class="characteristics">
-              <p class="characteristics__text">Samsung A54 5G</p>
+              <p class="characteristics__text">Samsung A54</p>
               <p class="characteristics__text--gray">Global 8 GB</p>
               <p class="characteristics__text--gray">128 GB</p>
 
@@ -562,7 +622,7 @@
 
         <!-- boton para ver mas articulos -->
         <div class="button">
-          <a class="button__link" href="">
+          <a class="button__link" href="https://www.kimovil.com/es/special/dailydeals" target="_blank">
             <strong>+ Ver más...</strong>
           </a>
         </div>
@@ -597,7 +657,7 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas1.png" alt="movil1" class="sell__device">
                   <p class="sell__text">
                     Poco X6 Pro
                   </p>
@@ -605,7 +665,7 @@
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  270 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -617,15 +677,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas2.png" alt="movil2" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Xiamoi Redmi 13
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  380 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -637,15 +697,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas3.png" alt="movil3" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    One Plus 12
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  548 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -658,15 +718,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas4.png" alt="movil4" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Xiaomi 12 Pro+
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  320 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -678,16 +738,16 @@
                 <!-- informacionn del componente -->
                 <div class="sell__info">
 
-                  <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <i class="icon--green fa-solid fa-arrow-up"></i>
+                  <img src="./assets/imagesIndex/movilventas5.png" alt="movil5" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Poco X6
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  240 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -696,7 +756,7 @@
             </ol>
 
             <!-- boton para ver mas articulos -->
-            <div class="button">
+            <div class="button button--different">
               <a class="button__link" href="">
                 <strong>+ Ver lista completa...</strong>
               </a>
@@ -720,15 +780,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas4.png" alt="movil6" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Samsung Galaxy S22
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  114 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -739,16 +799,16 @@
                 <!-- informacionn del componente -->
                 <div class="sell__info">
 
-                  <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <i class="icon--green fa-solid fa-arrow-up"></i>
+                  <img src="./assets/imagesIndex/movilventas3.png" alt="movil7" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Nubia Magic 8 Pro
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  528 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -759,16 +819,16 @@
                 <!-- informacionn del componente -->
                 <div class="sell__info">
 
-                  <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <i class="icon--green fa-solid fa-arrow-up"></i>
+                  <img src="./assets/imagesIndex/movilventas1.png" alt="movil8" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Iphone 14 Pro Max
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  900 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -780,16 +840,16 @@
                 <!-- informacionn del componente -->
                 <div class="sell__info">
 
-                  <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <i class="icon--pink fa-solid fa-arrow-down"></i>
+                  <img src="./assets/imagesIndex/movilventas2.png" alt="movil9" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Redmi Note 10
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  208 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -801,16 +861,16 @@
                 <!-- informacionn del componente -->
                 <div class="sell__info">
 
-                  <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <i class="icon--green fa-solid fa-arrow-up"></i>
+                  <img src="./assets/imagesIndex/movilventas3.png" alt="movil10" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Realme GT 2 Pro
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  658 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -819,7 +879,7 @@
             </ol>
 
             <!-- boton para ver mas articulos -->
-            <div class="button">
+            <div class="button button--different">
               <a class="button__link" href="">
                 <strong>+ Ver lista completa...</strong>
               </a>
@@ -843,15 +903,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas5.png" alt="movil11" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Poco x3 Pro
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
-                <p class="sell__price">
-                  259 €
+                <p class="sell__price sell__price--different">
+                  No hay precios
                 </p>
               </li>
               <hr class="sell__line">
@@ -863,15 +923,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas4.png" alt="movil12" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Poco X3 NFC
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  124 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -883,15 +943,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas3.png" alt="movil13" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Samsung Galaxy S20
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  324 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -904,15 +964,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas2.png" alt="movil14" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Xiaomi Redmi 10
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
                 <p class="sell__price">
-                  259 €
+                  208 €
                 </p>
               </li>
               <hr class="sell__line">
@@ -925,15 +985,15 @@
                 <div class="sell__info">
 
                   <i class="icon--yellouw fa-solid fa-equals"></i>
-                  <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                  <img src="./assets/imagesIndex/movilventas1.png" alt="movil15" class="sell__device">
                   <p class="sell__text">
-                    Poco X6 Pro
+                    Redmi 9 Pro
                   </p>
                   <!-- informacionn del componente -->
                 </div>
                 <!--Precio componenete -->
-                <p class="sell__price">
-                  259 €
+                <p class="sell__price sell__price--different">
+                  No hay precios
                 </p>
               </li>
               <hr class="sell__line">
@@ -942,8 +1002,8 @@
             </ol>
 
             <!-- boton para ver mas articulos -->
-            <div class="button">
-              <a class="button__link" href="">
+            <div class="button button--different">
+              <a class="button__link" href="https://www.kimovil.com/es/special/dailydeals" target="_blank">
                 <strong>+ Ver lista completa...</strong>
               </a>
             </div>
@@ -982,7 +1042,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas3.png" alt="movil16" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1002,7 +1062,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="movil17" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1010,7 +1070,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    569 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1022,7 +1082,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas2.png" alt="movil18" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1030,7 +1090,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    736 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1043,7 +1103,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas5.png" alt="movil19" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1051,7 +1111,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    825 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1064,7 +1124,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas4.png" alt="movil20" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1072,7 +1132,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    634 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1097,7 +1157,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas4.png" alt="movil21" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1105,7 +1165,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    318 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1117,7 +1177,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas5.png" alt="movil22" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1125,7 +1185,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    510 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1137,7 +1197,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas1.png" alt="movil23" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1145,7 +1205,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    318 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1158,7 +1218,7 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas3.png" alt="movil24" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
@@ -1166,7 +1226,7 @@
                   </div>
                   <!--Precio componenete -->
                   <p class="sell__price">
-                    259 €
+                    380 €
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1179,15 +1239,15 @@
                   <div class="sell__info">
 
                     <i class="icon--yellouw fa-solid fa-equals"></i>
-                    <img src="./assets/imagesIndex/movilventas1.png" alt="" class="sell__device">
+                    <img src="./assets/imagesIndex/movilventas2.png" alt="movil25" class="sell__device">
                     <p class="sell__text">
                       Poco X6 Pro
                     </p>
                     <!-- informacionn del componente -->
                   </div>
                   <!--Precio componenete -->
-                  <p class="sell__price">
-                    259 €
+                  <p class="sell__price sell__price--different">
+                    No hay precios
                   </p>
                 </li>
                 <hr class="sell__line">
@@ -1201,7 +1261,7 @@
             </article>
 
             <!-- boton para ver mas articulos -->
-            <div class="button">
+            <div class="button button--different">
               <a class="button__link" href="">
                 <strong>+ Ver lista completa...</strong>
               </a>
@@ -1241,12 +1301,18 @@
 
     <!-- SECTION TASBLA -->
     <section class="section section--gray">
-      <div class="section-container">
+      <div class="section-container section-container--table">
+
+        <!-- imagen -->
+        <div class="container__reviews-image">
+          <img class="reviews__image" src="./assets/imagesIndex/reviews.png" alt="reviews">
+        </div>
+        
         <!--septima tabla-->
-        <table class="table sin_borde">
+        <table class="table">
 
           <!--titulo-->
-          <caption class="titulo sin_borde">Ultimas review destacadas</caption>
+          <caption class="table__title">Ultimas review destacadas</caption>
 
           <tr class>
             <th class="th">Tablets</th>
@@ -1257,35 +1323,35 @@
           </tr>
 
           <tr>
-            <td class="td fondo_gris_oscuro color_blanco">Honor PAD 8</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">295€</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">12</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">4Mpx</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">512GB</td>
+            <td class="td td__background td__letter">Honor PAD 8</td>
+            <td class="td background">295€</td>
+            <td class="td background">12</td>
+            <td class="td background">4Mpx</td>
+            <td class="td background">512GB</td>
           </tr>
 
           <tr>
-            <td class="td fondo_gris_oscuro color_blanco">Xiaomi MI 12T</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">295€</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">15</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">6Mpx</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">256GB</td>
+            <td class="td td__background td__letter">Xiaomi MI 12T</td>
+            <td class="td background">295€</td>
+            <td class="td background">15</td>
+            <td class="td background">6Mpx</td>
+            <td class="td background">256GB</td>
           </tr>
 
           <tr>
-            <td class="td fondo_gris_oscuro color_blanco">Nubia Z40 Pro</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">295€</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">14</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">5Mpx</td>
-            <td class="td fondo_azul_diferente fondo_blanco_diferente">128GB</td>
+            <td class="td td__background td__letter">Nubia Z40 Pro</td>
+            <td class="td background">295€</td>
+            <td class="td background">14</td>
+            <td class="td background">5Mpx</td>
+            <td class="td background">128GB</td>
           </tr>
 
           <tr>
-            <td class="td fondo_gris_oscuro color_blanco">Dooge S98</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">295€</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">13</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">4Mpx</td>
-            <td class="td fondo_azul_diferente fondo_gris fondo_blanco_diferente">64GB</td>
+            <td class="td td__background td__letter">Dooge S98</td>
+            <td class="td background">295€</td>
+            <td class="td background">13</td>
+            <td class="td background">4Mpx</td>
+            <td class="td background">64GB</td>
           </tr>
 
           <!--septima tabla-->
@@ -1295,91 +1361,91 @@
 
     <!-- *****BORDE GRISSSS********* -->
     <!-- <div class="border__gris"> -->
-    </div>
-    <!-- *****BORDE GRISSSS********* -->
-
-
-    <!-- *****FOOTERR****** -->
-    <section class="section section--gray">
-      <div class="section-container">
-        <footer class="footer">
-
-          <!-- primera linea -->
-          <div class="footer__link">
-            <a class="footer__link--kimovil" href="https://www.kimovil.com/es/todas-las-marcas-de-moviles">
-              <p class="link-kimovil" target="_blank"><strong>Ki</strong>movil</p>
-            </a>
-
-            <a href="https://www.kimovil.com/es/info/contacto" target="_blank" class="footer__link--contact">
-              <p class="link-kimovil"><strong>Contacto</strong></p>
-            </a>
-
-
-            <a href="https://www.kimovil.com/es/info/contacto#contact-store" target="_blank"
-              class="footer__link--contact">
-              <p class="link-kimovil"><strong>Hazte nuestro partner</strong></p>
-            </a>
-          </div>
-
-          <!-- segunda linea -->
-          <div class="footer__link--networks">
-
-            <div class="footer__link--numbers">
-              <a class="footer__link--contact" href="https://www.kimovil.com/es/comparar-moviles">
-                <p class="link"><strong>132 </strong>Móviles</p>
-              </a>
-
-              <a href="https://www.kimovil.com/es/todas-las-marcas-de-moviles" target="_blank"
-                class="footer__link--contact">
-                <p class="link"><strong>215</strong> Marcas</p>
-              </a>
-
-
-              <a href="https://www.kimovil.com/es/cupones-tiendas" target="_blank" class="footer__link--contact">
-                <p class="link"><strong>738</strong> Tiendas</p>
-              </a>
-
-              <a href="https://www.kimovil.com/es/special/dailydeals" target="_blank" class="footer__link--contact">
-                <p class="link"><strong>14683</strong> Precios</p>
-              </a>
-
-              <a href="https://www.kimovil.com/es/special/dailydeals" target="_blank" class="footer__link--contact">
-                <p class="link"><strong>152</strong> Ofertas</p>
-              </a>
-
-              <a href="https://www.kimovil.com/es/opiniones/ultimas-anadidas" target="_blank"
-                class="footer__link--contact">
-                <p class="link"><strong>69659 </strong>Opiniones</p>
-              </a>
-
-
-            </div>
-
-
-            <div class="social-networks">
-              <a href="https://blog.kimovil.com/es/" target="_blank" class="footer__link--contact">
-                <p class="link">Blog</p>
-              </a>
-
-              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fkimovil" target="_blank"
-                class="footer__link--contact">
-                <p class="link">Twitter</p>
-              </a>
-
-              <a href="https://www.facebook.com/kimovil" target="_blank" class="footer__link--contact">
-                <p class="link">Facebook</p>
-              </a>
-
-              <a href="https://www.youtube.com/user/kimovilreviews" target="_blank" class="footer__link--contact">
-                <p class="link">Youtube</p>
-              </a>
-            </div>
-
-          </div>
-      </div>
-
-      </footer>
   </div>
+  <!-- *****BORDE GRISSSS********* -->
+
+
+  <!-- *****FOOTERR****** -->
+  <section class="section section--gray">
+    <div class="section-container">
+      <footer class="footer">
+
+        <!-- primera linea -->
+        <div class="footer__link">
+          <a class="footer__link--kimovil" href="https://www.kimovil.com/es/todas-las-marcas-de-moviles">
+            <p class="link-kimovil" target="_blank"><strong>Ki</strong>movil</p>
+          </a>
+
+          <a href="https://www.kimovil.com/es/info/contacto" target="_blank" class="footer__link--contact">
+            <p class="link-kimovil"><strong>Contacto</strong></p>
+          </a>
+
+
+          <a href="https://www.kimovil.com/es/info/contacto#contact-store" target="_blank"
+            class="footer__link--contact">
+            <p class="link-kimovil"><strong>Hazte nuestro partner</strong></p>
+          </a>
+        </div>
+
+        <!-- segunda linea -->
+        <div class="footer__link--networks">
+
+          <div class="footer__link--numbers">
+            <a class="footer__link--contact" href="https://www.kimovil.com/es/comparar-moviles">
+              <p class="link"><strong>132 </strong>Móviles</p>
+            </a>
+
+            <a href="https://www.kimovil.com/es/todas-las-marcas-de-moviles" target="_blank"
+              class="footer__link--contact">
+              <p class="link"><strong>215</strong> Marcas</p>
+            </a>
+
+
+            <a href="https://www.kimovil.com/es/cupones-tiendas" target="_blank" class="footer__link--contact">
+              <p class="link"><strong>738</strong> Tiendas</p>
+            </a>
+
+            <a href="https://www.kimovil.com/es/special/dailydeals" target="_blank" class="footer__link--contact">
+              <p class="link"><strong>14683</strong> Precios</p>
+            </a>
+
+            <a href="https://www.kimovil.com/es/special/dailydeals" target="_blank" class="footer__link--contact">
+              <p class="link"><strong>152</strong> Ofertas</p>
+            </a>
+
+            <a href="https://www.kimovil.com/es/opiniones/ultimas-anadidas" target="_blank"
+              class="footer__link--contact">
+              <p class="link"><strong>69659 </strong>Opiniones</p>
+            </a>
+
+
+          </div>
+
+
+          <div class="social-networks">
+            <a href="https://blog.kimovil.com/es/" target="_blank" class="footer__link--contact">
+              <p class="link">Blog</p>
+            </a>
+
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fkimovil" target="_blank"
+              class="footer__link--contact">
+              <p class="link">Twitter</p>
+            </a>
+
+            <a href="https://www.facebook.com/kimovil" target="_blank" class="footer__link--contact">
+              <p class="link">Facebook</p>
+            </a>
+
+            <a href="https://www.youtube.com/user/kimovilreviews" target="_blank" class="footer__link--contact">
+              <p class="link">Youtube</p>
+            </a>
+          </div>
+
+        </div>
+    </div>
+
+    </footer>
+    </div>
 
 
 
@@ -1392,4 +1458,3 @@
 </body>
 
 </html>
-

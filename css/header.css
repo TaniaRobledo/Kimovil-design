@@ -10,6 +10,7 @@
     /* border: 1px solid red; */
     background-color: #3b3ece;
     padding: 0;
+    padding: 4px;
     margin: 0;
 }
 
@@ -18,41 +19,54 @@
     /* border: 10px solid black; */
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0;
     margin: 0;
+}
+
+.header__title-kimovil{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 4px;
+    /* border: 2px solid black; */
+   
 }
 
 .header__title {
+    /* border: 1px solid black; */
     color: white;
-    font-size: 1.4rem;
+    /* font-size: 2rem; */
     padding: 0;
     margin: 0;
+    font-family: roboto__thin;
 }
+
 
 .header__title--bold {
     font-weight: bold;
+    font-family: roboto__bold;
+    /* border: 2px solid black; */
+   
 }
 
+
+
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* justify-content: center; */
-    /* border: 2px solid orange; */
-    /* width: 45%; */
-    padding: 0;
-    margin: 0;
-}
-.nav-container{
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     /* border: 2px solid black; */
-    width: 80%;
-    padding: 0;
-    margin: 0;
+   width: 65%;
+    flex-wrap: wrap;
 }
 
 .nav__list {
@@ -77,6 +91,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
     
 }
 
@@ -91,6 +106,8 @@
     color: white;
 }
 
+/* input */
+
 .container__input{
     width: 30%;
      color: white;
@@ -100,29 +117,33 @@
    font-size: 1rem;
    align-items: center;
    justify-content: center;
+   /* border: 1px solid red; */
 }
 
 .label{
+    /* width: 100%; */
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid black;
     padding: 5px;
+    text-align: start;
     background: rgb(255,255,255);
     background: linear-gradient( rgba(255,255,255,0.4963235294117647) 4%, rgba(255,255,255,0.272233893557423) 25%, rgba(255,255,255,0) 47%);
 }
 
 .label:hover{
-    border: 1px solid white;
+    outline: 1px solid white;
 }
+
 .input{
-    border-radius: 8px 8px 8px 8px;
-    width: 90%;
+    border-radius: 8px;
+    width: 100%;
     padding: 8px;
     background-color: transparent;
     outline: 0;
     border: 0;
+    /* border: 2px solid red; */
 }
 .input:focus{
     outline: 0;

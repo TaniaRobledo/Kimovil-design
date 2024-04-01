@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
    
 }
 .section--blue{
@@ -14,13 +14,16 @@
 
 }
 .section--gray{
-    background-color: #dfe0e5;  
+    /* background-color: #dfe0e5;   */
+    background-color: #F3F5FA;
 
 }
 .section--white{
     background-color: #FFFFFF;  
    
 }
+
+/* section container styles */
 
 .section-container{
     max-width: 1400px;
@@ -31,6 +34,39 @@
    
 }
 
+.section-container--table{
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section-container--details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin-top: 70px;
+
+
+}
+
+.section-container--resume{
+    display: flex;
+}
+
+.section-container--resumen{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    /* border: 2px solid black; */
+   
+
+}
 .section-container--phones{
     display: flex;
     flex-direction: column;
@@ -80,7 +116,16 @@
 
 .info__container-range{
     display: flex;
-    align-items: end;
+    /* border: 1px solid red; */
+    width: 580px;
+    height: 110px;
+    margin-top: 84px;
+    /* align-items: end; */
+}
+
+.comparador{
+    width: 100%;
+    height: 100%;
 }
 
 /********** STYLES SELLS **********/
@@ -115,6 +160,8 @@
 .sell__title{
     /* border: 1px solid red; */
     margin-left: 40px;
+    font-size: 1.2rem;
+    color: #4F4E56;
   
 }
 
@@ -123,6 +170,7 @@
     /* border: 3px solid blue; */
     padding: 0;
     margin: 0;
+    color: #4F4E56;
 }
 
 
@@ -132,6 +180,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .sell__item{
@@ -159,9 +208,19 @@
     align-items: center;
 }
 
+.sell__text{
+    color: #908F96;
+    font-size: 1rem;
+}
+
 .sell__price{
     color: blue;
     font-weight: bold;
+}
+
+.sell__price--different{
+    color: #BBC0C9;
+    font-size: 0.9rem;
 }
 
 

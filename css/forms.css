@@ -1,14 +1,28 @@
+.container__form{
+    /* border: 4px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+
+
 form {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     background-color: rgba(153, 153, 201, 0.288);
-    ;
-    width: 34%;
+    /* width: 34%; */
+    width: 400px;
     padding: 10px;
     margin: 0;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 4px solid black;
+    border: 1px solid rgb(122, 116, 153);
 }
 
 
@@ -16,12 +30,16 @@ form {
     color: blue;
     font-size: 1.4rem;
     font-weight: bold;
-    width: 70%;
+    width: 100%;
     /* border: 1px solid red; */
 }
 
 .register {
-    text-align: left;
+    text-align: center;
+    /* width: 400px; */
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 0;
 }
 
 .user-data,
@@ -107,10 +125,17 @@ form {
     width: 40%;
     color: rgb(53, 51, 51);
     font-size: 1rem;
+    border: 1px solid rgb(165, 165, 208);
     font-weight: bold;
-    background-color: rgba(126, 126, 205, 0.421);
+    background-color: rgba(147, 147, 205, 0.421);
 }
 
 .button-register:hover {
-    background-color: rgb(103, 103, 190);
+    background-color: rgba(110, 110, 195, 0.412);
+}
+
+
+
+.image__form{
+    border-radius: 10px;
 }
